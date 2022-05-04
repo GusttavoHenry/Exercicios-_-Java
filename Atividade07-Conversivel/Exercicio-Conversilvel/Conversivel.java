@@ -46,12 +46,12 @@ public class Conversivel{
 
    public void setMotor(double motor){
     if (motor >=1.0 && motor <= 4.1) {
-
+        this.motor = 1.0;
     }   
     else {
-        this.motor = 1.0;
+        this.motor = motor;
     }
-    this.motor = motor;
+   
    }
 
    public void setAnoFabricacao(int anoFabricacao){
@@ -65,9 +65,10 @@ public class Conversivel{
         this.anoFabricacao = anoFabricacao;
     }
    }
-   public void acelerar(double aceleracao){
+   public void acelerar(int aceleracao){
        for (int i=1; i<=aceleracao; i++) {
-           this.velocidadeAtual++;
+           this.velocidadeAtual++ ;
+           System.out.println(velocidadeAtual);
        }
        public void frear(int frenagem){
            int i=1;
