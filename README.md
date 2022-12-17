@@ -1,5 +1,5 @@
 <h1 align="center">
-  Exercicios com a linguagem ava<img width="25px" src="https://cdn.discordapp.com/attachments/1049167666876776458/1049167722082226186/icon.png"/>
+  Exercicios com a linguagem Java<img width="25px" src="https://cdn.discordapp.com/attachments/1049167666876776458/1049167722082226186/icon.png"/>
 </h1>
 
  <p align="center">
